@@ -74,7 +74,7 @@ I separate it as this allows my Redux helpers (selectors, actions and reducers) 
 
 Actions are functions that passes values to our reducer.
 
-> EG: `setMenuIsLoaded()` at **src/components/Menu/actions.js** is dispatching type __MENU_IS_LOADED__ to our `MenuReducer` in **src/components/Menu/reducer.js**
+EG: `setMenuIsLoaded()` at **src/components/Menu/actions.js** is dispatching type __MENU_IS_LOADED__ to our `MenuReducer` in **src/components/Menu/reducer.js**
 
 ```javascript
 export const setMenuIsLoaded = () => ({
