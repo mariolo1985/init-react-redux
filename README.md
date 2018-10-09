@@ -19,8 +19,10 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 2. Run the following commands
 
+- Dev
 > `yarn && yarn build:dev`: to install packages and run dev build with a watch
 
+- Prod
 > `yarn && yarn build`: to install packages and run a prod build
 
 3. Check the `dist` directory for your deployable files
