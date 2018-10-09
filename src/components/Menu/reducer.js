@@ -9,6 +9,9 @@ export const MenuReducer = (state = {}, action) => {
             };
 
         default:
-            return state;
+            return {
+                ...state,
+                isMenuLoaded: false
+            };
     }
 };
