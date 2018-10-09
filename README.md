@@ -8,6 +8,11 @@ Feel free to use it.
 
 You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
+# Table Of Content
+
+1. [Pre-req](#pre-req)
+2. [Installation](#installation)
+
 ## Pre-req
 
 - Node 8+
