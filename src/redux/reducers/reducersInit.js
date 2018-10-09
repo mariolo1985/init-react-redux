@@ -9,7 +9,10 @@ const initialState = (state = {}, action) => {
             }
 
         default:
-            return state;
+            return {
+                ...state,
+                appInitiated: false
+            };
     }
 };
 
