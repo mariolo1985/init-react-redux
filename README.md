@@ -18,6 +18,7 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
   2. [Redux reducer](#reducers)
     1. [Initial state reducer](#initial-state)
     2. [Component reducer](#component-state)
+  3. [Redux action](#actions)
 
 ## Pre-req
 
