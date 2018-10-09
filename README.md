@@ -12,6 +12,12 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 1. [Pre-req](#pre-req)
 2. [Installation](#installation)
+3. [React info](#react)
+4. [Redux info](#redux)
+- [Redux store](#store)
+- [Redux reducer](#reducers)
+-- [Initial state reducer](#initial-state)
+-- [Component reducer](#component-state)
 
 ## Pre-req
 
