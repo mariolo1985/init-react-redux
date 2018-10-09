@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { xmlHttpRequestOnSuccess } from 'simply-requests';
 
@@ -14,8 +15,7 @@ class Menu extends Component {
         super(props);
 
         this.state = {
-            data: [],
-            isLoaded: false
+            data: []
         };
 
         props.setMenuIsLoaded();
@@ -27,16 +27,12 @@ class Menu extends Component {
 
     // helpers
     handleMenuData = (response) => {
-        console.log(response);
-
+        console.log('handleMenuData response: ', response);
         // set state isloaded = true and data = response.responseText
     }
 
     render() {
-        const { isLoaded } = this.state;
-
-
-        if (!isLoaded) {
+        if (!this.props.isMenuLoaded) {
             return null;
         }
 
@@ -49,6 +45,14 @@ class Menu extends Component {
         );
     }
 }
+
+Menu.defaultProps = {
+    isMenuLoaded: false
+};
+
+Menu.propTypes = {
+    isMenuLoaded: PropTypes.bool
+};
 
 const mapStateToProps = state => ({
     isMenuLoaded: getIsMenuLoaded(state)
