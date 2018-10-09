@@ -19,6 +19,11 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
     - [Initial state reducer](#initial-state)
     - [Component reducer](#component-state)
   - [Redux action](#actions)
+  - [Redux selector](#selectors)
+- [Contributing](#contributing)
+- [Future features](#future-features)
+- [Feature request](#feature-request)
+- [Bug report](#bug-report)
 
 ## Pre-req
 
