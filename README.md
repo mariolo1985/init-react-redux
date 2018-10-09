@@ -10,15 +10,15 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 # Table Of Content
 
-1. [Pre-req](#pre-req)
-2. [Installation](#installation)
-3. [React info](#react)
-4. [Redux info](#redux)
-  1. [Redux store](#store)
-  2. [Redux reducer](#reducers)
-    1. [Initial state reducer](#initial-state)
-    2. [Component reducer](#component-state)
-  3. [Redux action](#actions)
+- [Pre-req](#pre-req)
+- [Installation](#installation)
+- [React info](#react)
+- [Redux info](#redux)
+  - [Redux store](#store)
+  - [Redux reducer](#reducers)
+    - [Initial state reducer](#initial-state)
+    - [Component reducer](#component-state)
+  - [Redux action](#actions)
 
 ## Pre-req
 
