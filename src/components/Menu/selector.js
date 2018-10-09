@@ -1,8 +1,8 @@
 import { createSelector } from 'reselect';
 
+const getMenuState = state => state.menu;
+
 export const getIsMenuLoaded = createSelector(
-    (state) => {
-        console.log('state', state);
-        return true;
-    }
+    state => getMenuState(state),
+    menuState => menuState.isMenuLoaded
 );
