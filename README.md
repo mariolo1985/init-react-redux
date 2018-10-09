@@ -32,7 +32,7 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 ## Installation 
 
-1. **Fork** this repo and __clone__ it
+1. **Fork** this repo and __clone__ your fork
 
 2. Run the following commands
 
