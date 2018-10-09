@@ -51,6 +51,23 @@ The initial state is set at **src/redux/reducers/reducersInit.js**. Usually, I w
 
 Each component state is combined at **src/redux/reducers/reducerViewstate.js**. This pulls in reducers such as the one for `Menu` at **src/components/Menu/reducer.js**.
 
+
+EG: This sets the `Menu` store's property __isMenuLoaded__ to **false** initially
+
+```javascript
+export const MenuReducer = (state = {}, action) => {
+    switch (action.type) {
+        // other code
+        default:
+            return {
+                ...state,
+                isMenuLoaded: false
+            };
+    }
+};
+
+```
+
 I separate it as this allows my Redux helpers (selectors, actions and reducers) within my component by only having to re-render that component when that component store updates. This also nest the files in the component directory to make it easier to find.
 
 ### Actions
@@ -58,6 +75,13 @@ I separate it as this allows my Redux helpers (selectors, actions and reducers) 
 Actions are functions that passes values to our reducer.
 
 > EG: `setMenuIsLoaded()` at **src/components/Menu/actions.js** is dispatching type __MENU_IS_LOADED__ to our `MenuReducer` in **src/components/Menu/reducer.js**
+
+```javascript
+export const setMenuIsLoaded = () => ({
+    type: MENU_IS_LOADED
+});
+
+```
 
 ### Selectors
 
