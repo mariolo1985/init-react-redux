@@ -6,6 +6,8 @@ This is where I start my personal Reactjs and Redux projects.
 
 Feel free to use it.
 
+You can see this working [here](https://mariolo1985.github.io/initreactredux/).
+
 ## Pre-req
 
 - Node 8+
