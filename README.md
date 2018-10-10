@@ -2,7 +2,7 @@
 
 :v:
 
-This is where I start my personal Reactjs and Redux projects. 
+This is where I start my personal ReactJS and Redux projects. 
 
 Feel free to use it.
 
@@ -20,6 +20,7 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
     - [Component reducer](#component-state)
   - [Redux action](#actions)
   - [Redux selector](#selectors)
+- [Tests](#tests)
 - [Contributing](#contributing)
 - [Future features](#future-features)
 - [Feature request](#feature-request)
@@ -107,6 +108,28 @@ Selectors get info from our store but also tells our component when to re-render
 ```javascript
 export default connect(mapStateToProps, mapDispatchToProps)(Menu);
 ```
+
+### Tests
+
+Jest is used for our React component and Redux lifecycle. `Menu` component is set up with these tests.
+
+> WIP
+
+#### Action tests
+
+> WIP
+
+#### Reducer tests
+
+> WIP
+
+#### Selector tests
+
+> WIP
+
+#### Component tests
+
+> WIP
 
 ## Contributing
 
