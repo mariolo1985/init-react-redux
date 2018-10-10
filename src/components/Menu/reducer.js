@@ -1,4 +1,4 @@
-import { MENU_IS_LOADED } from './actions';
+import { MENU_IS_LOADED, SET_MENU_DATA } from './actions';
 
 export const MenuReducer = (state = {}, action) => {
     switch (action.type) {
@@ -8,9 +8,16 @@ export const MenuReducer = (state = {}, action) => {
                 isMenuLoaded: true
             };
 
+        case SET_MENU_DATA:
+            return {
+                ...state,
+                data: action.data
+            }
+
         default:
             return {
                 ...state,
+                data: {},
                 isMenuLoaded: false
             };
     }
