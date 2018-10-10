@@ -26,9 +26,11 @@ module.exports = function (grunt) {
                 }
             },
             prod: {
+                banner: 'building prod less file',
                 options: {
                     compress: true,
-                    sourceMap: true
+                    sourceMap: false,
+                    sourceMapBasepath: 'dist/css'
                 },
                 files: {
                     'dist/css/master.min.css': 'src/less/master.less'
