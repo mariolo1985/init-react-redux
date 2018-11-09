@@ -28,7 +28,7 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 ## Pre-req
 
-- Node 8+
+- Node 10+
 - Yarn
 
 ## Installation 
