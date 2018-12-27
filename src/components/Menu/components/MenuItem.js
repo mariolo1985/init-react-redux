@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 const MenuItem = ({ item }) => (
     <li className='menu-item'>
-        <p>{item.tagline}</p>
         <a href={item.url} className='menu-item-link'>{item.name}</a>
+        <p>{item.tagline}</p>
     </li>
 );
 

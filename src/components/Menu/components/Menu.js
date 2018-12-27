@@ -16,7 +16,7 @@ import {
 
 class Menu extends Component {
     componentDidMount = () => {
-        xmlHttpRequestOnSuccess('/data/menu.json', this.handleMenuData);
+        xmlHttpRequestOnSuccess('./data/menu.json', this.handleMenuData);
     }
 
     // helpers
@@ -41,8 +41,8 @@ class Menu extends Component {
         }
 
         return (
-            <div className='menu-wrapper'>
-                <ul className='menu'>
+            <div className='menu-wrapper clear'>
+                <ul className='menu clear'>
                     {
                         Object.keys(data).map(headingKey => (
                             <Fragment key={Math.random()}>

@@ -9,54 +9,6 @@ initialize {
       },
       "children": Array [
         Object {
-          "attribs": Object {},
-          "children": Array [
-            Object {
-              "data": "Here is what we do",
-              "next": null,
-              "parent": [Circular],
-              "prev": null,
-              "type": "text",
-            },
-          ],
-          "name": "p",
-          "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
-            "attribs": Object {
-              "class": "menu-item-link",
-              "href": "/services1.html",
-            },
-            "children": Array [
-              Object {
-                "data": "Services 1",
-                "next": null,
-                "parent": [Circular],
-                "prev": null,
-                "type": "text",
-              },
-            ],
-            "name": "a",
-            "namespace": "http://www.w3.org/1999/xhtml",
-            "next": null,
-            "parent": [Circular],
-            "prev": [Circular],
-            "type": "tag",
-            "x-attribsNamespace": Object {
-              "class": undefined,
-              "href": undefined,
-            },
-            "x-attribsPrefix": Object {
-              "class": undefined,
-              "href": undefined,
-            },
-          },
-          "parent": [Circular],
-          "prev": null,
-          "type": "tag",
-          "x-attribsNamespace": Object {},
-          "x-attribsPrefix": Object {},
-        },
-        Object {
           "attribs": Object {
             "class": "menu-item-link",
             "href": "/services1.html",
@@ -72,9 +24,7 @@ initialize {
           ],
           "name": "a",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": null,
-          "parent": [Circular],
-          "prev": Object {
+          "next": Object {
             "attribs": Object {},
             "children": Array [
               Object {
@@ -87,13 +37,15 @@ initialize {
             ],
             "name": "p",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": [Circular],
+            "next": null,
             "parent": [Circular],
-            "prev": null,
+            "prev": [Circular],
             "type": "tag",
             "x-attribsNamespace": Object {},
             "x-attribsPrefix": Object {},
           },
+          "parent": [Circular],
+          "prev": null,
           "type": "tag",
           "x-attribsNamespace": Object {
             "class": undefined,
@@ -103,6 +55,54 @@ initialize {
             "class": undefined,
             "href": undefined,
           },
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Here is what we do",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "p",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": Object {
+            "attribs": Object {
+              "class": "menu-item-link",
+              "href": "/services1.html",
+            },
+            "children": Array [
+              Object {
+                "data": "Services 1",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
         },
       ],
       "name": "li",
@@ -155,54 +155,6 @@ initialize {
       },
       "children": Array [
         Object {
-          "attribs": Object {},
-          "children": Array [
-            Object {
-              "data": "Here is what we do",
-              "next": null,
-              "parent": [Circular],
-              "prev": null,
-              "type": "text",
-            },
-          ],
-          "name": "p",
-          "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
-            "attribs": Object {
-              "class": "menu-item-link",
-              "href": "/services1.html",
-            },
-            "children": Array [
-              Object {
-                "data": "Services 1",
-                "next": null,
-                "parent": [Circular],
-                "prev": null,
-                "type": "text",
-              },
-            ],
-            "name": "a",
-            "namespace": "http://www.w3.org/1999/xhtml",
-            "next": null,
-            "parent": [Circular],
-            "prev": [Circular],
-            "type": "tag",
-            "x-attribsNamespace": Object {
-              "class": undefined,
-              "href": undefined,
-            },
-            "x-attribsPrefix": Object {
-              "class": undefined,
-              "href": undefined,
-            },
-          },
-          "parent": [Circular],
-          "prev": null,
-          "type": "tag",
-          "x-attribsNamespace": Object {},
-          "x-attribsPrefix": Object {},
-        },
-        Object {
           "attribs": Object {
             "class": "menu-item-link",
             "href": "/services1.html",
@@ -218,9 +170,7 @@ initialize {
           ],
           "name": "a",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": null,
-          "parent": [Circular],
-          "prev": Object {
+          "next": Object {
             "attribs": Object {},
             "children": Array [
               Object {
@@ -233,13 +183,15 @@ initialize {
             ],
             "name": "p",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": [Circular],
+            "next": null,
             "parent": [Circular],
-            "prev": null,
+            "prev": [Circular],
             "type": "tag",
             "x-attribsNamespace": Object {},
             "x-attribsPrefix": Object {},
           },
+          "parent": [Circular],
+          "prev": null,
           "type": "tag",
           "x-attribsNamespace": Object {
             "class": undefined,
@@ -249,6 +201,54 @@ initialize {
             "class": undefined,
             "href": undefined,
           },
+        },
+        Object {
+          "attribs": Object {},
+          "children": Array [
+            Object {
+              "data": "Here is what we do",
+              "next": null,
+              "parent": [Circular],
+              "prev": null,
+              "type": "text",
+            },
+          ],
+          "name": "p",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": Object {
+            "attribs": Object {
+              "class": "menu-item-link",
+              "href": "/services1.html",
+            },
+            "children": Array [
+              Object {
+                "data": "Services 1",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "a",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": [Circular],
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "href": undefined,
+            },
+          },
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
         },
       ],
       "name": "li",
@@ -317,31 +317,20 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
-            Here is what we do
-          </p>,
           <a
             className="menu-item-link"
             href="/services1.html"
           >
             Services 1
           </a>,
+          <p>
+            Here is what we do
+          </p>,
         ],
         "className": "menu-item",
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Here is what we do",
-          },
-          "ref": null,
-          "rendered": "Here is what we do",
-          "type": "p",
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -355,6 +344,17 @@ ShallowWrapper {
           "rendered": "Services 1",
           "type": "a",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Here is what we do",
+          },
+          "ref": null,
+          "rendered": "Here is what we do",
+          "type": "p",
+        },
       ],
       "type": "li",
     },
@@ -365,31 +365,20 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <p>
-              Here is what we do
-            </p>,
             <a
               className="menu-item-link"
               href="/services1.html"
             >
               Services 1
             </a>,
+            <p>
+              Here is what we do
+            </p>,
           ],
           "className": "menu-item",
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Here is what we do",
-            },
-            "ref": null,
-            "rendered": "Here is what we do",
-            "type": "p",
-          },
           Object {
             "instance": null,
             "key": undefined,
@@ -402,6 +391,17 @@ ShallowWrapper {
             "ref": null,
             "rendered": "Services 1",
             "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Here is what we do",
+            },
+            "ref": null,
+            "rendered": "Here is what we do",
+            "type": "p",
           },
         ],
         "type": "li",
@@ -460,31 +460,20 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
-            Here is what we do
-          </p>,
           <a
             className="menu-item-link"
             href="/services1.html"
           >
             Services 1
           </a>,
+          <p>
+            Here is what we do
+          </p>,
         ],
         "className": "menu-item",
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Here is what we do",
-          },
-          "ref": null,
-          "rendered": "Here is what we do",
-          "type": "p",
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -497,6 +486,17 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Services 1",
           "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Here is what we do",
+          },
+          "ref": null,
+          "rendered": "Here is what we do",
+          "type": "p",
         },
       ],
       "type": "li",
