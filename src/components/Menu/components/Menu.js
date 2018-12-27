@@ -44,19 +44,15 @@ class Menu extends Component {
             <div className='menu-wrapper'>
                 <ul className='menu'>
                     {
-                        Object.keys(data).map((headingKey) => {
-                            return (
-                                <Fragment key={Math.random()}>
-                                    {
-                                        data[headingKey].map((item) => {
-                                            return (
-                                                <MenuItem key={Math.random()} item={item} />
-                                            );
-                                        })
-                                    }
-                                </Fragment>
-                            );
-                        })
+                        Object.keys(data).map(headingKey => (
+                            <Fragment key={Math.random()}>
+                                {
+                                    data[headingKey].map(item => (
+                                        <MenuItem key={Math.random()} item={item} />
+                                    ))
+                                }
+                            </Fragment>
+                        ))
                     }
                 </ul>
             </div>
@@ -87,13 +83,3 @@ const mapDispatchToProps = {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Menu);
-
-
-/*
-data[headingKey].map((item) => {
-                                console.log(item);
-                                return (
-                                    <MenuItem item={item} />
-                                );
-                            });
-                            */

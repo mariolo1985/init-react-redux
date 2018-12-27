@@ -5,11 +5,7 @@ export const setMenuIsLoaded = () => ({
     type: MENU_IS_LOADED
 });
 
-export const setMenuData = (data) => {
-    return (dispatch) => {
-        dispatch({
-            type: SET_MENU_DATA,
-            data
-        });
-    };
-};
+export const setMenuData = data => ({
+    type: SET_MENU_DATA,
+    data
+});
