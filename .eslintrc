@@ -5,16 +5,16 @@
         "jest": true
     },
     "parser": "babel-eslint",
-    "rules": { // comma stuff
+    "rules": {
         "comma-dangle": [
             "error",
             "never"
-        ],
-        // for indent types
+        ], // comma stuff        
         "indent": [
             "error",
             4
-        ],
+        ], // for indent types
+        "import/prefer-default-export": 0,
         // something with LF and CRLF formating
         "linebreak-style": 0,
         // allow jsx in files with .js
