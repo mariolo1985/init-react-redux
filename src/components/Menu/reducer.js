@@ -12,7 +12,7 @@ export const MenuReducer = (state = {}, action) => {
             return {
                 ...state,
                 data: action.data
-            }
+            };
 
         default:
             return {

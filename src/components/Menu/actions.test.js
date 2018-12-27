@@ -26,10 +26,8 @@ describe('Menu actions', () => {
                 type: SET_MENU_DATA,
                 data
             };
-            const result = setMenuData(data);
-            const dispatch = jest.fn();
-            result(dispatch, () => { });
-            expect(dispatch).toBeCalledWith({
+
+            expect(setMenuData(data)).toEqual({
                 ...mockAction
             });
         });

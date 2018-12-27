@@ -6,7 +6,7 @@ const initialState = (state = {}, action) => {
             return {
                 ...state,
                 appInitiated: true
-            }
+            };
 
         default:
             return {

@@ -2,7 +2,7 @@
 
 :v:
 
-This is where I start my personal ReactJS and Redux projects. 
+This is where I start my ReactJS/Redux/Webpack projects. This includes Webpack dev server.
 
 Feel free to use it.
 
@@ -33,12 +33,12 @@ You can see this working [here](https://mariolo1985.github.io/initreactredux/).
 
 ## Installation 
 
-1. **Fork** this repo and __clone__ your fork
+1. **Fork** this repo and _clone_ your fork
 
 2. Run the following commands
 
 - Dev
-> `yarn && yarn build:dev`: to install packages and run dev build with a watch
+> `yarn && yarn build:dev`: to install packages and run a dev build with webpack dev server
 
 - Prod
 > `yarn && yarn build`: to install packages and run a prod build
